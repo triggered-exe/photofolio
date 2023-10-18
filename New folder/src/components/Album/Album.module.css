@@ -1,0 +1,95 @@
+.albumHeading {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 20px;
+   height: 50px;
+   background-color: rgb(58, 255, 255);
+}
+
+.createAlbumButton {
+    color: white;
+    background-color: rgb(53, 50, 253);
+    padding: 0px 10px;
+    height: 50%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.createAlbumButton:hover {
+    background-color: rgb(53, 50, 200);
+}
+
+.albumCcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.album {
+    width: 150px;
+    height: 130px;
+    background-color: rgba(104, 96, 96, 0.116);
+    box-shadow: 0px 0px 10px rgba(66, 65, 65, 0.466); 
+    border-radius: 10px;
+}
+
+.album:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+
+
+.logo{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.formContainer {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    padding-top: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formContainer input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .formContainer .closeFormButton {
+    position: absolute; /* Position it absolutely within the .formContainer */
+    top: 10px; /* Adjust top value as needed */
+    right: 10px; /* Adjust right value as needed */
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .formContainer button {
+    padding: 10px 20px;
+    background-color: rgb(53, 50, 253);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formContainer button:hover {
+    background-color: rgb(53, 50, 200);
+  }
